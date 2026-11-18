@@ -10,4 +10,7 @@ public interface ToolAssetRepository
     Optional<ToolAsset> findByAssetCode(String assetCode);
 
     boolean existsByAssetCode(String assetCode);
+
+    // NEW: Count tools belonging to a purchase
+    long countByPurchaseLine_Id(Long purchaseLineId);
 }
