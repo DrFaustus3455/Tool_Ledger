@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+.env
+toolledger_before_lesson4.dump
+springboot.log
